@@ -55,10 +55,13 @@ function changeArray(index, ans) {
 function check(ans)
 {
 
-  if (Number.isNaN(ans))
-    id.innerHTML = "ERROR"; //isme ek class lagani h
+  if (Number.isNaN(ans)){
+  id.classList.add("error");
+    id.innerHTML = "ERROR";
+  }
   else
-    id.innerHTML = ans;
+  {  id.classList.remove("error");
+    id.innerHTML = ans;}
 }
 function equal() {
   var ans;
