@@ -100,13 +100,13 @@ function equal() {
         ans = o1 - o2;
         check(ans);
         changeArray(p, ans);
-        alert(arr);
+        //alert(arr);
         break;
       case 6:
         ans = o1 + o2;
         check(ans);
         changeArray(p, ans);
-        alert(arr);
+        //alert(arr);
     }
   }
   clear();
