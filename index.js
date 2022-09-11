@@ -122,11 +122,11 @@ function equal() {
    if(arr[2].parseInt==0)
    {
     // id.innerHTML = ans;
-   alert("dfsf");
+  
   }
    else
    {
-    alert("d");
+  
     equal();
    }
     arr = new Array(25);
